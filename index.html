@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- navigation -->
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#" id="active"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+        <a href="../page/index.html"><i class="fa fa-address-book" aria-hidden="true"></i>Charge Fine</a>
+        <a href="#"><i class="fa fa-user" aria-hidden="true"></i>Profiles</a>
+        <a href="#"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <img src="./img/LOGO.svg" alt="">
+            <span onclick="openNav()"> <img src="./img/Menu.svg" alt=""></span>
+        </div>
+    </div>
+
+    <!-- navigation end -->
+    <div class="user-profile">
+        <div class="container">
+            <div class="center">
+                <div class="profile-img">
+                    <img class="imgg" src="./img/hannah-busing-vGHMXnD5A0I-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <div class="user-name">
+                <p>Nishant Jadhav</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="detail-card">
+            <div class="card">
+                <div class="icon-div"><img src="./img/Contact.svg" alt=""></div>
+                <div class="text-div"><p>contact <br><span>8291534304</span></p></div>
+            </div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+            <div class="card"></div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+</body>
+
+</html>
